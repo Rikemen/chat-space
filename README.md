@@ -31,6 +31,7 @@ Things you may want to cover:
 |name|string|null: false|
 ### Association
 - has_many : tweets
+- has_many : users_groups
 - has_many : groups, through: users_groups
 
 
@@ -51,6 +52,7 @@ Things you may want to cover:
 |name|string|null: false|
 ### Association
 - has_many: tweets
+- has_many : users_groups
 - has_many: users, through: users_groups
 
 ## users_groups
