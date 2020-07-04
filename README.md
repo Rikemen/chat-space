@@ -58,6 +58,6 @@ Things you may want to cover:
 |------|----|------|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
-### Association
+#### Association
 - belongs_to: user
 - belongs_to: group
